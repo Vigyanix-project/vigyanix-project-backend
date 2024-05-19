@@ -1,0 +1,26 @@
+{
+    "name": "vigyanix_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon server.js",
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.1",
+      "http": "^0.0.1-security",
+      "instamojo-nodejs": "^0.0.5",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.4.2",
+      "nodemon": "^2.0.18"
+    },
+    "devDependencies": {
+      "dotenv": "^16.0.1",
+      "morgan": "^1.10.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
